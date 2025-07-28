@@ -1,6 +1,6 @@
 # 🌍 localization_sheet
 
-Remote localization made simple — fetch translations from Google Sheets, cache them locally, and access them via `.tr(context)` syntax, all while respecting Flutter’s `locale` system.
+Remote localization made simple — fetch translations from Google Sheets, cache them locally, and access them via `.tr()` syntax, all while respecting Flutter’s `locale` system.
 
 [![Pub Version](https://img.shields.io/pub/v/localization_sheet.svg)](https://pub.dev/packages/localization_sheet)
 [![Flutter](https://img.shields.io/badge/flutter-ready-blue)](https://flutter.dev)
@@ -17,6 +17,12 @@ Remote localization made simple — fetch translations from Google Sheets, cache
 - 🛠 Easily extendable, lightweight and offline-friendly
 
 ---
+## 🧾 Example Google Sheet Format
+
+Here’s how your Google Sheet should look (exported as CSV):
+
+![Sheet Example](https://raw.githubusercontent.com/IsmoilAzamov/localization_sheet/main/images/sheet_example.png)
+
 
 ## 🚀 Quick Start
 
@@ -24,6 +30,6 @@ Remote localization made simple — fetch translations from Google Sheets, cache
 
 ```yaml
 dependencies:
-  localization_sheet: ^0.0.1
+  localization_sheet: ^0.0.2+1
   flutter_localizations:
     sdk: flutter

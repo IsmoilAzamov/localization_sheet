@@ -56,15 +56,15 @@ class HomePage extends StatelessWidget {
               children: [
                 ElevatedButton(
                   onPressed: () => onLocaleChange(const Locale('en')),
-                  child: const Text('Uzbek'),
+                  child: const Text('English'),
                 ),
                 ElevatedButton(
                   onPressed: () => onLocaleChange(const Locale('es')),
-                  child: const Text('Русский'),
+                  child: const Text('Spanish'),
                 ),
                 ElevatedButton(
                   onPressed: () => onLocaleChange(const Locale('uz')),
-                  child: const Text('English'),
+                  child: const Text('Uzbek'),
                 ),
               ],
             ),
