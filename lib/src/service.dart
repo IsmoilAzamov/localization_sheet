@@ -1,5 +1,6 @@
 class RemoteTranslationService {
   static final RemoteTranslationService instance = RemoteTranslationService._();
+
   RemoteTranslationService._();
 
   late Map<String, String> _translations;

@@ -35,9 +35,7 @@ class RemoteLocalizationLoader {
     final lines = const LineSplitter().convert(csvContent);
     final headers = lines.first.split(',');
 
-    final Map<String, Map<String, String>> data = {
-      for (final lang in headers.skip(1)) lang.trim(): {}
-    };
+    final Map<String, Map<String, String>> data = {for (final lang in headers.skip(1)) lang.trim(): {}};
 
     for (var i = 1; i < lines.length; i++) {
       final row = lines[i].split(',');
