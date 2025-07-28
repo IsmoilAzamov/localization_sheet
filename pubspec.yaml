@@ -1,0 +1,21 @@
+name: localization_sheet
+description: Remote localization from Google Sheets with .tr() and locale support.
+version: 0.0.1
+homepage: https://github.com/IsmoilAzamov/localization_sheet
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  shared_preferences: ^2.5.3
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
