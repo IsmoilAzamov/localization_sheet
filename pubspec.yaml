@@ -1,6 +1,6 @@
 name: localization_sheet
 description: Remote localization from Google Sheets with .tr() and locale support.
-version: 0.0.2+2
+version: 0.0.3
 repository: https://github.com/IsmoilAzamov/localization_sheet
 
 environment:
