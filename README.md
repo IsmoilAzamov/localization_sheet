@@ -21,7 +21,7 @@ Remote localization made simple — fetch translations from Google Sheets, cache
 
 Here’s how your Google Sheet should look (exported as CSV):
 
-![Sheet Example](https://raw.githubusercontent.com/IsmoilAzamov/localization_sheet/main/images/sheet_example.png)
+![Sheet Example](https://github.com/IsmoilAzamov/localization_sheet/blob/master/images/sheet_example.png)
 
 
 ## 🚀 Quick Start
@@ -30,6 +30,6 @@ Here’s how your Google Sheet should look (exported as CSV):
 
 ```yaml
 dependencies:
-  localization_sheet: ^0.0.2+1
+  localization_sheet: ^0.0.2+2
   flutter_localizations:
     sdk: flutter
