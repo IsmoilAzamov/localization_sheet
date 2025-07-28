@@ -1,0 +1,17 @@
+name: localization_sheet_example
+description: Example usage for localization_sheet package
+
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  localization_sheet:
+    path: ../
+
+flutter:
+  uses-material-design: true

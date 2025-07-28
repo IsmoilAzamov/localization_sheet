@@ -13,7 +13,7 @@ Remote localization made simple — fetch translations from Google Sheets, cache
 - ✅ **Remote translation** from Google Sheets (CSV export)
 - 🧠 **Automatic caching** with `SharedPreferences`
 - 🌐 **Locale-aware**: tied to `MaterialApp.locale`
-- 🧩 Simple syntax: `'key'.tr(context)`
+- 🧩 Simple syntax: `'key'.tr()`
 - 🛠 Easily extendable, lightweight and offline-friendly
 
 ---

@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Locale _locale = const Locale('uz');
+  Locale _locale = const Locale('en');
 
   void _changeLocale(Locale locale) {
     setState(() => _locale = locale);
@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       locale: _locale,
-      supportedLocales: const [Locale('uz'), Locale('ru'), Locale('en')],
+      supportedLocales: const [Locale('en'), Locale('es'), Locale('uz')],
       localizationsDelegates: [
         LocalizationSheetDelegate(
           sheetUrl: 'https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/export?format=csv',
@@ -55,15 +55,15 @@ class HomePage extends StatelessWidget {
               spacing: 12,
               children: [
                 ElevatedButton(
-                  onPressed: () => onLocaleChange(const Locale('uz')),
+                  onPressed: () => onLocaleChange(const Locale('en')),
                   child: const Text('Uzbek'),
                 ),
                 ElevatedButton(
-                  onPressed: () => onLocaleChange(const Locale('ru')),
+                  onPressed: () => onLocaleChange(const Locale('es')),
                   child: const Text('Русский'),
                 ),
                 ElevatedButton(
-                  onPressed: () => onLocaleChange(const Locale('en')),
+                  onPressed: () => onLocaleChange(const Locale('uz')),
                   child: const Text('English'),
                 ),
               ],
