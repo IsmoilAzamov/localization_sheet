@@ -1,39 +1,29 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 🌍 localization_sheet
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+Remote localization made simple — fetch translations from Google Sheets, cache them locally, and access them via `.tr(context)` syntax, all while respecting Flutter’s `locale` system.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+[![Pub Version](https://img.shields.io/pub/v/localization_sheet.svg)](https://pub.dev/packages/localization_sheet)
+[![Flutter](https://img.shields.io/badge/flutter-ready-blue)](https://flutter.dev)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
-## Features
+## ✨ Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- ✅ **Remote translation** from Google Sheets (CSV export)
+- 🧠 **Automatic caching** with `SharedPreferences`
+- 🌐 **Locale-aware**: tied to `MaterialApp.locale`
+- 🧩 Simple syntax: `'key'.tr(context)`
+- 🛠 Easily extendable, lightweight and offline-friendly
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## 🚀 Quick Start
 
-## Usage
+### 1. Add dependency
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  localization_sheet: ^0.0.1
+  flutter_localizations:
+    sdk: flutter
